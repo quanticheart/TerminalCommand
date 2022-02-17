@@ -1,4 +1,4 @@
 #! /bin/bash
 cd ~/Desktop
 cd record
-scrcpy --encoder 'OMX.google.h264.encoder' -r file2.mp4
+scrcpy --encoder 'OMX.google.h264.encoder' -r $(date +%Y%m%d-%H%M%S).mp4
